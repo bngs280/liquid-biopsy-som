@@ -24,15 +24,16 @@ nextflow run ctdna-som/main.nf \
   --input samplesheet.csv \
   --outdir results \
   -profile docker
+
 ### Output
-results/
+```results/
 ├── vcf/            # Final annotated variants
 ├── tmb_msi/        # Biomarker metrics
 ├── qc/             # MultiQC reports
 └── bams/           # Processed BAMs
 
-## Future Improvements
-We plan to enhance this pipeline with:
+### Future Improvements
+```We plan to enhance this pipeline with:
 - [ ] **Custom logo** (e.g., `assets/pipeline_diagram.png`)  
 - [ ] **Detailed "Contributing" guidelines** (for open-source collaboration)  
 - [ ] **Publication link** (when formally published)  
