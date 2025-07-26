@@ -39,4 +39,6 @@ We plan to enhance this pipeline with:
 4. **UMI Optimization**: Focus on low-VAF (0.1%) detection.  
 5. **Modular Design**: Easy tool swapping (e.g., `Mutect2` → `LoFreq`).  
 
-*Let us know if you’d like specific tools emphasized (e.g., "Uses `fgbio` for duplex consensus")!*  
+*Let us know if you’d like specific tools emphasized (e.g., "Uses `fgbio` for duplex consensus")!*
+## Development  
+For planned features or to contribute, see [ROADMAP.md](ROADMAP.md).  
