@@ -25,8 +25,8 @@ nextflow run ctdna-som/main.nf \
   --outdir results \
   -profile docker
 
-### Output
-```results/
+**### Output
+**```results/
 ├── vcf/            # Final annotated variants
 ├── tmb_msi/        # Biomarker metrics
 ├── qc/             # MultiQC reports
