@@ -24,3 +24,19 @@ nextflow run ctdna-som/main.nf \
   --input samplesheet.csv \
   --outdir results \
   -profile docker
+
+
+## Future Improvements
+We plan to enhance this pipeline with:
+- [ ] **Custom logo** (e.g., `assets/pipeline_diagram.png`)  
+- [ ] **Detailed "Contributing" guidelines** (for open-source collaboration)  
+- [ ] **Publication link** (when formally published)  
+
+### Key Recent Enhancements
+1. **Visual Badges**: Nextflow/Docker version checks for compatibility.  
+2. **Structured Input/Output**: Tables clarify file requirements.  
+3. **Validation Metrics**: Performance table for credibility.  
+4. **UMI Optimization**: Focus on low-VAF (0.1%) detection.  
+5. **Modular Design**: Easy tool swapping (e.g., `Mutect2` → `LoFreq`).  
+
+*Let us know if you’d like specific tools emphasized (e.g., "Uses `fgbio` for duplex consensus")!*  
